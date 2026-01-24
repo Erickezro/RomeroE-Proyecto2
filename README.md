@@ -184,8 +184,8 @@ ping -c 4 google.com
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/
-cd Proyecto-Servicio-Directorio
+git clone https://github.com/Erickezro/Servicio-Integrado-de-Directorio-y-Autenticacion-para-la-FIS.git
+cd Servicio-Integrado-de-Directorio-y-Autenticacion-para-la-FIS
 
 # Dar permisos de ejecución a los scripts
 chmod +x RomeroE-Proyecto2.sh
