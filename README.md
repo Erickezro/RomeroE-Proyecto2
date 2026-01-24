@@ -357,7 +357,7 @@ ldapsearch -x -b "cn=estudiantes,ou=groups,dc=fis,dc=epn,dc=edu,dc=ec" memberUid
 
 ```bash
 # 1. Crear principal Kerberos
-sudo kadmin.local -q "addprinc -pw password nuevousuario@FIS.EPN.EDU.EC"
+sudo kadmin.local -q "addprinc nuevousuario@FIS.EPN.EDU.EC"
 
 # 2. Crear entrada LDAP
 # Crear archivo nuevousuario.ldif con el contenido apropiado
