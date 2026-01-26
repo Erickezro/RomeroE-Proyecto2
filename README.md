@@ -524,12 +524,10 @@ sudo systemctl restart bind9
 1. **Contraseñas:**
    - Las contraseñas de prueba son simples (iguales al username)
    - En un entorno real, usar contraseñas fuertes y políticas de complejidad
-   - Considerar integración con `cracklib` para validación de contraseñas
 
 2. **Red:**
    - El sistema está configurado para aceptar conexiones de redes locales
    - En un entorno real, restringir acceso por firewall (iptables/nftables)
-   - Considerar cifrado TLS para LDAP (puerto 636)
 
 3. **Keytabs:**
    - Los keytabs son archivos sensibles con permisos restringidos
